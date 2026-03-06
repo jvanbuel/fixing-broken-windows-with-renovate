@@ -1,0 +1,7 @@
+postgresql:
+  auth:
+    postgresPassword: changeme
+    database: app
+  primary:
+    persistence:
+      size: 8Gi
