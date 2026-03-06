@@ -1,4 +1,4 @@
-FROM python:3.10.0-slim
+FROM python:3.14.3-slim
 
 RUN pip install uv==0.1.0
 
