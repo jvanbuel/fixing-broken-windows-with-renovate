@@ -10,7 +10,7 @@
         "react": "18.0.0",
         "react-dom": "18.0.0",
         "zod": "3.19.0",
-        "zustand": "4.1.0",
+        "zustand": "4.5.7",
       },
       "devDependencies": {
         "@types/node": "18.0.0",
@@ -341,8 +341,10 @@
 
     "zod": ["zod@3.19.0", "", {}, "sha512-Yw0qvUsCNGBe5YacikdMt5gVYeUuaEFVDIHKMfElrGSaBhwR3CQK6vOzgfAJOjTdGIhEeoaj8GtT+NDZrepZbw=="],
 
-    "zustand": ["zustand@4.1.0", "", { "dependencies": { "use-sync-external-store": "1.2.0" }, "peerDependencies": { "immer": ">=9.0", "react": ">=16.8" }, "optionalPeers": ["immer", "react"] }, "sha512-ba39yDM90wFHiCO5AuoP2Tr1vSY5Eggduk0ou91mWL/qKnz2sBq8AcdFoticOftt7AfIHRBENI7WfjkUrqB3vA=="],
+    "zustand": ["zustand@4.5.7", "", { "dependencies": { "use-sync-external-store": "^1.2.2" }, "peerDependencies": { "@types/react": ">=16.8", "immer": ">=9.0.6", "react": ">=16.8" }, "optionalPeers": ["@types/react", "immer", "react"] }, "sha512-CHOUy7mu3lbD6o6LJLfllpjkzhHXSBlX8B9+qPddUsIfeF5S/UZ5q0kmCsnRqT1UHFQZchNFDDzMbQsuesHWlw=="],
 
     "eslint-utils/eslint-visitor-keys": ["eslint-visitor-keys@2.1.0", "", {}, "sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw=="],
+
+    "zustand/use-sync-external-store": ["use-sync-external-store@1.6.0", "", { "peerDependencies": { "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0" } }, "sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w=="],
   }
 }
