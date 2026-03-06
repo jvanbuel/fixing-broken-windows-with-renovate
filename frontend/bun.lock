@@ -9,7 +9,7 @@
         "next": "13.0.0",
         "react": "18.0.0",
         "react-dom": "18.0.0",
-        "zod": "3.19.0",
+        "zod": "3.25.76",
         "zustand": "4.1.0",
       },
       "devDependencies": {
@@ -339,7 +339,7 @@
 
     "yocto-queue": ["yocto-queue@0.1.0", "", {}, "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="],
 
-    "zod": ["zod@3.19.0", "", {}, "sha512-Yw0qvUsCNGBe5YacikdMt5gVYeUuaEFVDIHKMfElrGSaBhwR3CQK6vOzgfAJOjTdGIhEeoaj8GtT+NDZrepZbw=="],
+    "zod": ["zod@3.25.76", "", {}, "sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ=="],
 
     "zustand": ["zustand@4.1.0", "", { "dependencies": { "use-sync-external-store": "1.2.0" }, "peerDependencies": { "immer": ">=9.0", "react": ">=16.8" }, "optionalPeers": ["immer", "react"] }, "sha512-ba39yDM90wFHiCO5AuoP2Tr1vSY5Eggduk0ou91mWL/qKnz2sBq8AcdFoticOftt7AfIHRBENI7WfjkUrqB3vA=="],
 
