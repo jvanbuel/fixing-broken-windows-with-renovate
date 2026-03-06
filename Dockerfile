@@ -7,7 +7,7 @@ COPY backend/ ./backend/
 
 RUN cd backend && uv sync
 
-FROM node:18.0.0-alpine AS frontend
+FROM node:18.20.8-alpine AS frontend
 
 WORKDIR /app
 COPY frontend/ ./frontend/
